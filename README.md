@@ -1,12 +1,15 @@
 # Pipelined-and-Non-Pipelined-Processor
 
 Processor without pipelining:
+
 ● Program 1 is the sorting program. Program 2 is the factorial
 program.
+
 ● We created a mapping of op_code and the instruction, register
 file for both the programs, function code mapping for the r type
 instruction, instruction memory for both the programs and the
 data memory.
+
 ● Set the PC to the starting PC in the instruction memory for both
 the program.
 ● clk 1 is the clock cycle for the fetch stage, similarly clk2 for
