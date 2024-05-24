@@ -115,8 +115,10 @@ we are taking the values either from the pipelined registers or
 the forwarded values in case of dependencies. For jump
 instruction we are clearing the IF queue and pushing the
 instructions starting from the target address.
+
 ● Mem and Write back: similar to the non-pipelined processor.
 Here in Mem we are handling the lw followed by sw
 dependencies.
+
 ● After each stage the pipelined register values are updated and
 passed to the next stage.
